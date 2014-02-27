@@ -1,0 +1,397 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass openu-thesis
+\begin_preamble
+%\usepackage[usenames,dvipsnames]{color}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{tocloft}
+\end_preamble
+\options usenames,dvipsnames
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package babel
+\inputencoding utf8
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine natbib_numerical
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Document Setup 
+\end_layout
+
+\begin_layout Plain Layout
+
+% You shouldn't have to touch anything in this box.
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+baselineskip=18pt plus1pt
+\end_layout
+
+\begin_layout Plain Layout
+
+% set the number of sectioning levels that get number and appear in the
+ contents
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{secnumdepth}{3}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{tocdepth}{1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+tocheb}{
+\backslash
+'Tochen Hainyanim}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newlistof{tochen}{tocheb}{
+\backslash
+tocheb}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+perek[1]{% 
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+addcontentsline{tocheb}{chapter}{
+\backslash
+protect
+\backslash
+makebox[1.3em][l]{
+\backslash
+thechapter}#1}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+saif[1]{% 
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+addcontentsline{tocheb}{section}{
+\backslash
+protect
+\backslash
+makebox[2.0em][l]{
+\backslash
+thechapter}#1}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+Thesis Title
+\end_layout
+
+\begin_layout Author
+
+\color black
+Student
+\color inherit
+ Name
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "defs.lyx"
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{romanpages}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "acknowledgments.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "abstract.lyx"
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "pubs.lyx"
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{List of Figures}
+\end_layout
+
+\end_inset
+
+
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{List of Tables}
+\end_layout
+
+\end_inset
+
+
+\begin_inset FloatList table
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{romanpages}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "body.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "_refs.bbl"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "bib/cedalion"
+options "chicago"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+\begin_inset External
+	template PDFPages
+	filename thesisHebrew.pdf
+	display false
+	extra LaTeX "pages={5-1}"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
