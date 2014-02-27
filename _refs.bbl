@@ -1,0 +1,292 @@
+\def\dupcite#1{\textcolor{red}{Use instead BibTeX /cite\{#1\}
+  \cite{#1}}}\def\TODO#1{\framebox[1\columnwidth]{\parbox{.95\columnwidth}{\textcolor{red}{\small\textsf{TODO:
+  #1}}}}}
+\begin{thebibliography}{10}
+
+\bibitem{Beno:2010:SCB}
+I.~Beno, K.~Rosenthal, M.~Levitine, L.~Shaulov, and T.~E. Haran.
+\newblock Sequence-dependent cooperative binding of {p53} to {DNA} targets and
+  its relationship to the structural properties of the {DNA} targets.
+\newblock {\em Nucleic Acids Research}, 39(5):1919--1932, Mar. 2011.
+
+\bibitem{Berger:2009:UPM}
+M.~F. Berger and M.~L. Bulyk.
+\newblock Universal protein-binding microarrays for the comprehensive
+  characterization of the {DNA}-binding specificities of transcription factors.
+\newblock {\em Nature protocols}, 4(3):393--411, 2009.
+
+\bibitem{Bulyk:2007:PBM}
+M.~L. Bulyk.
+\newblock Protein binding microarrays for the characterization of
+  {DNA}--protein interactions.
+\newblock {\em Advances in Biochemical Engineering/Biotechnology}, 104:65--85,
+  2007.
+\newblock Analytics of Protein--{DNA} Interactions.
+
+\bibitem{cedalion}
+The {Cedalion} project homepage.
+\newblock Software Engineering Research Lab, The Open University of Israel,
+  2010.
+\newblock \url{http://cedalion.sourceforge.net}.
+
+\bibitem{SPLASH:COMPANION:2011}
+{\em Companion to the ACM International Conference on Systems, Programming
+  Languages, and Applications: Software for Humanity (SPLASH'11)}, Portland,
+  Oregon, USA, October 2011. ACM.
+
+\bibitem{Dmitriev:2004:LOP}
+S.~Dmitriev.
+\newblock Language oriented programming: The next programming paradigm.
+\newblock {\em JetBrains onBoard}, 1(2), 2004.
+
+\bibitem{Erdweg:2011:SLS}
+S.~Erdweg, T.~Rendel, C.~K\"{a}stner, and K.~Ostermann.
+\newblock Sugarj: library-based syntactic language extensibility.
+\newblock In {\em Proceedings of the 2011 ACM international conference on
+  Object oriented programming systems languages and applications}, OOPSLA '11,
+  pages 391--406, New York, NY, USA, 2011. ACM.
+
+\bibitem{Flatt:2012:CLR}
+M.~Flatt.
+\newblock Creating languages in racket.
+\newblock {\em Commun. ACM}, 55(1):48--56, Jan. 2012.
+
+\bibitem{Fowler:Bliki:ProjectionalEditing}
+M.~Fowler.
+\newblock Projectional editing.
+\newblock Martin Fowler's Bliki.
+\newblock
+  \texttt{http://mar\-tin\-fowler.com/bliki/Pro\-jectional\-Editing.htmlx}.
+
+\bibitem{Fowler:2005:FI}
+M.~Fowler.
+\newblock Fluentinterface, 2005.
+\newblock \url{http://martinfowler.com/bliki/FluentInterface.html}.
+
+\bibitem{Fowler:2005:LWK}
+M.~Fowler.
+\newblock Language workbenches: The killer-app for domain specific languages,
+  2005.
+
+\bibitem{Freeman:2006:EED}
+S.~Freeman and N.~Pryce.
+\newblock Evolving an embedded domain-specific language in {Java}.
+\newblock In {\em Proceedings of the 21\textsuperscript{\textit{st}} Annual ACM
+  SIGPLAN Conference on Object-Oriented Programming Systems, Languages, and
+  Applications (OOPSLA'06)}, pages 855--865, Portland, Oregon, USA, October
+  2006. ACM Press.
+
+\bibitem{Garrett:2005:AAN}
+J.~Garrett et~al.
+\newblock Ajax: A new approach to web applications.
+\newblock {\em Adaptive path}, 18, 2005.
+
+\bibitem{Gunther:2010:MDA}
+S.~Gunther.
+\newblock Multi-dsl applications with ruby.
+\newblock {\em IEEE Software}, 27:25--30, 2010.
+
+\bibitem{HenTov:2009:MWE}
+A.~Hen-Tov, D.~H. Lorenz, A.~Pinhasi, and L.~Schachter.
+\newblock {ModelTalk}: When everything is a domain-specific language.
+\newblock {\em IEEE Software}, 26(4):39--46, 2009.
+\newblock Special issue on Domain-Specific Modeling.
+
+\bibitem{Hudak:1996:BDE}
+P.~Hudak.
+\newblock Building domain-specific embedded languages.
+\newblock {\em ACM Computing Surveys (CSUR)}, 28(4es), 1996.
+
+\bibitem{Johnson:1975:YYA}
+S.~C. Johnson.
+\newblock {Yacc}: Yet another compiler-compiler.
+\newblock Technical Report CSTR32, Bell Laboratories, Murray Hill, NJ, 1975.
+
+\bibitem{Kats:2010:SLW}
+L.~C. Kats and E.~Visser.
+\newblock The {Spoofax} language workbench: Rules for declarative specification
+  of languages and {IDEs}.
+\newblock In {\em Proceedings of the ACM International Conference on Systems,
+  Programming Languages, and Applications: Software for Humanity (SPLASH'10)},
+  pages 444--463, Reno/Tahoe, Nevada, USA, October 2010. ACM.
+
+\bibitem{Knuth:1964:BNF}
+D.~Knuth.
+\newblock {Backus} normal form vs. {Backus Naur} form.
+\newblock {\em Communications of the ACM}, 7(12):735--736, 1964.
+
+\bibitem{Lorenz:2010:CLO}
+D.~H. Lorenz and B.~Rosenan.
+\newblock {Cedalion}: {A} language oriented programming language.
+\newblock In {\em IBM Programming Languages and Development Environments
+  Seminar (PLDE'10)}, Haifa, Israel, April 2010. {IBM} Research.
+
+\bibitem{Lorenz:2011:CSL}
+D.~H. Lorenz and B.~Rosenan.
+\newblock A case study of language oriented programming with {Cedalion}
+  (poster).
+\newblock In Companion to the ACM International Conference on Systems,
+  Programming Languages, and Applications: Software for Humanity (SPLASH'11)
+  \cite{SPLASH:COMPANION:2011}, pages 199--200.
+
+\bibitem{Lorenz:2011:CIW}
+D.~H. Lorenz and B.~Rosenan.
+\newblock {Cedalion} 101: ``{I} want my {DSL} now (demo))".
+\newblock In Companion to the ACM International Conference on Systems,
+  Programming Languages, and Applications: Software for Humanity (SPLASH'11)
+  \cite{SPLASH:COMPANION:2011}, pages 29--30.
+
+\bibitem{Lorenz:2011:CLL}
+D.~H. Lorenz and B.~Rosenan.
+\newblock Cedalion: A language for language oriented programming.
+\newblock In {\em Proceedings of the 26\textsuperscript{\textit{th}} Annual ACM
+  SIGPLAN Conference on Object-Oriented Programming Systems, Languages, and
+  Applications (OOPSLA'11)}, pages 733--752, Portland, Oregon, USA, October
+  2011. ACM.
+
+\bibitem{Lorenz:2011:CRW}
+D.~H. Lorenz and B.~Rosenan.
+\newblock Code reuse with language oriented programming.
+\newblock In {\em Proceedings of the 12\textsuperscript{\textit{th}}
+  International Conference on Software Reuse (ICSR12)}, number 6727 in Lecture
+  Notes in Computer Science, pages 165--180, Pohang, Korea, June 13-17 2011.
+  Springer Verlag.
+
+\bibitem{Lorenz:2011:CCS}
+D.~H. Lorenz and B.~Rosenan.
+\newblock A comparative case study of code reuse with language oriented
+  programming.
+\newblock {\em CoRR}, cs.SE/1103.5901, 2011.
+\newblock \url{http://arxiv.org/abs/1103.5901}.
+
+\bibitem{Lorenz:2001:DCO}
+D.~H. Lorenz and J.~Vlissides.
+\newblock Designing components versus objects: {A} transformational approach.
+\newblock In {\em Proceedings of the 23\textsuperscript{\textit{th}}
+  International Conference on Software Engineering (ICSE'01)}, pages 253--262,
+  Toronto, Canada, May 12-19 2001. {IEEE} Computer Society.
+
+\bibitem{mellor2003model}
+S.~Mellor, A.~Clark, and T.~Futagami.
+\newblock Model-driven development.
+\newblock {\em IEEE software}, 20(5):14--18, 2003.
+
+\bibitem{Menzies:1992:ESR}
+T.~Menzies, J.~Black, , J.~Fleming, , and M.~Dean.
+\newblock An expert system for raising pigs.
+\newblock In {\em The First Conference on Practical Applications of Prolog
+  (PAP'92)}, 1992.
+
+\bibitem{Mernik:2005:WHD}
+M.~Mernik, J.~Heering, and A.~M. Sloane.
+\newblock When and how to develop domain-specific languages.
+\newblock {\em ACM Comput. Surv.}, 37, Dec. 2005.
+
+\bibitem{Mycroft:1984:PTS}
+A.~Mycroft and R.~A. O'Keefe.
+\newblock A polymorphic type system for {Prolog}.
+\newblock {\em Artificial intelligence}, 23(3):295--307, 1984.
+
+\bibitem{Renggli:2009:WSW}
+L.~Renggli and T.~G\^{\i}rba.
+\newblock Why smalltalk wins the host languages shootout.
+\newblock In {\em Proceedings of the International Workshop on Smalltalk
+  Technologies (IWST'09)}, pages 107--113, New York, NY, USA, 2009. ACM.
+
+\bibitem{Rosenan:2010:DLP}
+B.~Rosenan.
+\newblock Designing language-oriented programming languages.
+\newblock In {\em Companion to the ACM International Conference on Systems,
+  Programming Languages, and Applications: Software for Humanity (SPLASH'10)},
+  pages 207--208, Reno/Tahoe, Nevada, USA, October 2010. ACM.
+\newblock Student Research Competition.
+
+\bibitem{Sassenrath:2000:RSL}
+C.~Sassenrath.
+\newblock The {REBOL} scripting language.
+\newblock {\em Dr. Dobb's Journal: Software Tools for the Professional
+  Programmer}, 25(7):64--68, 2000.
+\newblock \url{http://rebol.com}.
+
+\bibitem{Schrijvers:2008:TTP}
+T.~Schrijvers, V.~S. Costa, J.~Wielemaker, and B.~Demoen.
+\newblock Towards typed {Prolog}.
+\newblock In {\em Proceedings of the 24\textsuperscript{\textit{th}}
+  International Conference on Logic Programming (ICLP'08)}, pages 693--697,
+  Udine, Italy, 2008. Springer-Verlag.
+
+\bibitem{simonyi1995death}
+C.~Simonyi.
+\newblock {The death of computer languages, the birth of intentional
+  programming}.
+\newblock Technical Report MSR-TR-95-52, Microsoft Corporation, 1995.
+
+\bibitem{Simonyi:2006:IS}
+C.~Simonyi, M.~Christerson, and S.~Clifford.
+\newblock Intentional software.
+\newblock {\em ACM SIGPLAN Notices}, 41(10):451--464, 2006.
+
+\bibitem{somogyi1995mercury}
+Z.~Somogyi, F.~Henderson, and T.~Conway.
+\newblock {Mercury, an efficient purely declarative logic programming
+  language}.
+\newblock {\em Australian Computer Science Communications}, 17:499--512, 1995.
+
+\bibitem{Stahl:2006:MDS}
+T.~Stahl and M.~V{\"o}lter.
+\newblock {\em Model-Driven Software Development: Technology, Engineering,
+  Management}.
+\newblock John Wiley \& Sons, 2006.
+
+\bibitem{Szyperski:2002:Book}
+C.~Szyperski.
+\newblock {\em Component Software, Beyond Object-Oriented Programming}.
+\newblock Addison-Wesley, 2\textsuperscript{\textit{nd}} edition, 2002.
+\newblock With Dominik Gruntz and Stephan Murer.
+
+\bibitem{Tobin-Hochstadt:2008:DIT}
+S.~Tobin-Hochstadt and M.~Felleisen.
+\newblock The design and implementation of typed {Scheme}.
+\newblock In {\em Proceedings of the 35\textsuperscript{\textit{th}} Annual ACM
+  SIGPLAN-SIGACT Simposium on Principles of Programming Languages (POPL'08)},
+  pages 395--406, San Francisco, California, USA, January 2008. ACM.
+
+\bibitem{Visser:1997:SGP}
+E.~Visser.
+\newblock Scannerless generalized-{LR} parsing.
+\newblock Technical Report P9707, University of Amsterdam, Programming Research
+  Group, Department of Computer Science, Kruislaan 403, NL-1098 SJ Amsterdam,
+  The Netherlands, Aug. 1997.
+
+\bibitem{Voelter:2010:IFV}
+M.~V\"{o}lter.
+\newblock Implementing feature variability for models and code with
+  projectional language workbenches.
+\newblock In {\em Proceedings of the 2$^{nd}$ International Workshop on
+  Feature-Oriented Software Development ({FOSD'10})}, pages 41--48, Eindhoven,
+  The Netherlands, Oct. 2010. ACM.
+
+\bibitem{Voelter:2010:LWC}
+M.~V\"{o}lter, E.~Visser, S.~Kelly, A.~Hulshout, J.~Warmer, P.~J. Molina,
+  B.~Merkle, and K.~Thoms, editors.
+\newblock 2011.
+\newblock \url{http://www.languageworkbenches.net}.
+
+\bibitem{Ward:1994:LOP}
+M.~P. Ward.
+\newblock Language-oriented programming.
+\newblock {\em Software-Concepts and Tools}, 15(4):147--161, 1994.
+
+\bibitem{Wielemaker:2003:OSP}
+J.~Wielemaker.
+\newblock An overview of the {SWI-Prolog} programming environment.
+\newblock In F.~Mesnard and A.~Serebrenik, editors, {\em Proceedings of the
+  13$^{th}$ International Workshop on Logic Programming Environments
+  (WLPE'03)}, pages 1--16, Mumbai, India, Dec. 2003.
+\newblock Report CW371, Katholieke Universiteit Leuven, Nov. 2003.
+
+\bibitem{xl}
+{XLR}: Extensible language and runtime, 2008.
+\newblock \url{http://xlr.sourceforge.net/concept/XL.html}.
+
+\end{thebibliography}

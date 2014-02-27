@@ -1,0 +1,1010 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass openu-thesis
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\backslash
+global
+\backslash
+def
+\backslash
+textsf#1{
+\backslash
+textmd{#1}} 
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\backslash
+global
+\backslash
+def
+\backslash
+url#1{
+\backslash
+textsf{#1}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+global
+\backslash
+def
+\backslash
+visiblespace{
+\backslash
+mbox{
+\backslash
+textvisiblespace}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+Cedalion}{
+\backslash
+textsf{Ce
+\backslash
+-da
+\backslash
+-lion}
+\backslash
+index{Cedalion}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+green}[1]{
+\backslash
+index{variables!#1}
+\backslash
+textcolor{OliveGreen}{
+\backslash
+textsf{
+\backslash
+textit{#1}}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+blue}[1]{
+\backslash
+textcolor{Blue}{
+\backslash
+textsf{
+\backslash
+textbf{#1}}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+black}[1]{
+\backslash
+index{concepts!#1}
+\backslash
+textcolor{black}{
+\backslash
+textsf{#1}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\backslash
+newcommand{
+\backslash
+red}[1]{
+\backslash
+index{variables!#1}
+\backslash
+textcolor{red}{
+\backslash
+textsf{
+\backslash
+textit{#1}}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\backslash
+DeclareUnicodeCharacter{8946}{
+\backslash
+myarrow}
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\backslash
+newcommand{
+\backslash
+goal}[1]{
+\backslash
+mbox{
+\backslash
+textcolor{blue}{
+\backslash
+textit{
+\backslash
+textsf{#1}}}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+TAGFIG}[2]{
+\backslash
+tag{
+\backslash
+ref{#1}.{#2}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+Head}{
+\backslash
+green{Head}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+Body}{
+\backslash
+green{Body}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+DDE}{::=}
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\backslash
+newcommand{
+\backslash
+DDE}{
+\backslash
+hookleftarrow}
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\backslash
+renewcommand{
+\backslash
+DDE}{
+\backslash
+twoheadleftarrow}
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\backslash
+renewcommand{
+\backslash
+DDE}{
+\backslash
+ni
+\backslash
+!
+\backslash
+!
+\backslash
+!
+\backslash
+!
+\backslash
+!-}
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\backslash
+renewcommand{
+\backslash
+DDE}{
+\backslash
+Lleftarrow}
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\backslash
+renewcommand{
+\backslash
+DDE}{
+\backslash
+leftarrowtail}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+DOTDOT}{::}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+Term}{
+\backslash
+green{Term}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+Type}{
+\backslash
+green{Type}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+Concept}{
+\backslash
+green{Concept}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+TTermList}{
+\backslash
+green{ArgList}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+Projection}{
+\backslash
+green{Projection}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+typedTerm}{
+\backslash
+black{typedTerm}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+visualization}{
+\backslash
+black{visualization}}
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\backslash
+newcommand{
+\backslash
+statement}{
+\backslash
+black{statement}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+true}{
+\backslash
+black{true}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+type}{
+\backslash
+black{type}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+Text}{
+\backslash
+green{Text}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+Token}{
+\backslash
+green{Token}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+First}{
+\backslash
+green{First}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+Rest}{
+\backslash
+green{Rest}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+pattern}{
+\backslash
+black{pattern}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+token}{
+\backslash
+black{token}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+statement}{
+\backslash
+black{statement}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+pred}{
+\backslash
+black{pred}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+Before}{
+\backslash
+green{Before}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+Middle}{
+\backslash
+green{Middle}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+After}{
+\backslash
+green{After}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+TODO}[1]{
+\backslash
+framebox[1
+\backslash
+columnwidth]{
+\backslash
+parbox{.95
+\backslash
+columnwidth}{
+\backslash
+small
+\backslash
+textsf{TODO: #1}}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+PLATFORM}{LOP environment
+\backslash
+index{LOP!environment}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+Platform}{LOP Environment
+\backslash
+index{LOP!environment}}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+LP}{logic programming
+\backslash
+index{logic programming}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\var}[1]{\textcolor{OliveGreen}{\textsf{\textit{#1}}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\CEDALION}{\Cedalion}
+{\mathbf{Cedalion}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\declare}{\blue{declare}\index{declare}}
+{{\color{blue}declare}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\where}{\blue{where}\index{where}}
+{{\color{blue}where}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\display}{\blue{display}\index{display}}
+{{\color{blue}display}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\as}{\blue{as}\index{as}}
+{{\color{blue}as}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\rewrite}[2]{\textrm{statement }#1\textrm{ implies }#2}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\rewriteSplit}[2]{\begin{array}{l}
+ #1\rightsquigarrow\\
+\quad#2 
+\end{array}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\typeSignature}[2]{\declare\,#1\,\where\,#2}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\typeSignatureSplit}[2]{\begin{array}{l}
+ \declare\,#1\\
+\quad\where\,#2 
+\end{array}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\typeSignatureSplitNoIndent}[2]{\begin{array}{l}
+ \declare#1\\
+\where\,#2 
+\end{array}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\projDefinition}[2]{\display\,#1\,\as\,#2}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\projDefinitionSplit}[2]{\begin{array}{l}
+ \display\,#1\\
+\quad\as\,#2 
+\end{array}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\useAsAdapterFor}[2]{\blue{use}\,#1\,\blue{as adapter for}\,#2}
+{{\color{blue}use}\,#1\,{\color{blue}as\, adapter\, for}\,#2}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\tTerm}[2]{#1\!\DOTDOT\!#2}
+{#1\mathbf{::}#2}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Term}{\green{Term}\index{Term}}
+{{\color{green}Term}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Type}{\green{Type}\index{Type}}
+{{\color{green}Type}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Concept}{\green{Concept}\index{Concept}}
+{{\color{green}Concept}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\typedTerm}{\black{typedTerm}\index{typedTerm}}
+{{\color{black}typedTerm}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\type}{\black{type}\index{type}}
+{{\color{black}type}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Head}{\green{Head}\index{Head}}
+{{\color{green}Head}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Body}{\green{Body}\index{Body}}
+{{\color{green}Body}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Symbol}{\green{Symbol}\index{Symbol}}
+{{\color{green}Symbol}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Pattern}{\green{Pattern}\index{Pattern}}
+{{\color{green}Pattern}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\TTermList}{\green{ArgList}\index{ArgList}}
+{{\color{green}ArgList}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\token}{\black{token}\index{token}}
+{{\color{black}token}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\pattern}{\black{pattern}\index{pattern}}
+{{\color{black}pattern}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\true}{\black{true}\index{true}}
+{{\color{black}true}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\statement}{\black{statement}\index{statement}}
+{{\color{black}statement}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\DOTDOT}{::}
+{\mathbf{::}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\DOTMINUS}{\textrm{:-}}
+{\mathbf{:-}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Projection}{\green{Projection}\index{Projection}}
+{{\color{green}Projection}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\pred}{\black{pred}\index{pred}}
+{{\color{black}pred}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Before}{\green{Before}\index{Before}}
+{{\color{green}Before}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Middle}{\green{Middle}\index{Middle}}
+{{\color{green}Middle}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\After}{\green{After}\index{After}}
+{{\color{green}After}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Text}{\green{Text}\index{Text}}
+{{\color{green}Text}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Token}{\green{Token}\index{Token}}
+{{\color{green}Token}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Rest}{\green{Rest}\index{Rest}}
+{{\color{green}Rest}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\GreenPone}{\green{$P_{1}$}}
+{{\color{green}P_{1}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\GreenPtwo}{\green{$P_{2}$}}
+{{\color{green}P_{2}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\query}{\black{query}\index{query}}
+{{\color{black}query}}
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

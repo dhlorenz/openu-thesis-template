@@ -1,0 +1,78 @@
+#% Do not delete the line below; configure depends on this
+#  \DeclareLaTeXClass{openu-thesis}
+# Report textclass definition file. Taken from initial LyX source code
+# Version 0.3 released 16/7/2012
+# Author : David H. Lorenz <lorenz@openu.ac.il>
+# Based on Danny Price <danny.price@astro.ox.ac.uj>
+# Based on Keith A. Gillow's OCIAM Thesis class
+
+Format 11
+Input stdclass.inc
+Input numreport.inc
+
+Preamble
+\usepackage{theorem}
+	%\theorembodyfont{\upshape}
+	\newtheorem{theorem}{Theorem}[section]
+EndPreamble
+
+Style Bibliography
+	TopSep                4
+	LabelString           "Bibliography"
+	LabelFont
+	  Series              Bold
+	  Size                Huge
+	EndFont
+End
+
+Style Theorem
+	Margin                First_Dynamic
+	LatexType             Environment
+	LatexName             theorem
+	NextNoIndent          1
+	LabelSep              xx
+	ParIndent             MMM
+	ParSkip               0.4
+	ItemSep               0.2
+	TopSep                0.7
+	BottomSep             0.7
+	ParSep                0.3
+	Align                 Block
+	AlignPossible         Block, Left
+	LabelType             Static
+	LabelString           "Theorem #."
+	Font
+	  Shape               Up
+	  Size                Normal
+	EndFont
+	LabelFont
+	  Shape               Up
+	  Series              Bold
+	EndFont
+End
+
+Style Definition
+	CopyStyle             Theorem
+	LatexName             definition
+	LabelString           "Definition #."
+	Preamble
+	\newtheorem{definition}[theorem]{Definition}
+	EndPreamble
+End
+
+Style Acknowlegements
+	CopyStyle             Theorem
+	LatexName             acknowledgements
+	LabelString           "Acknowledgements: "
+End
+Style Dedication
+	CopyStyle             Theorem
+	LatexName             dedication
+	LabelString           "Dedeication: "
+End
+Style List_of_Publications
+	CopyStyle             Theorem
+	LatexName             listofpubs
+	LabelString           "List of Publications: "
+End
+
