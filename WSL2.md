@@ -1,6 +1,5 @@
 
-
-# Configuring Proxy for git on WSL2 (Ubuntu)
+# Configuring Proxy for git on OPENU WSL2 (Ubuntu)
 
 ## Set proxy
 ```
@@ -9,28 +8,29 @@ git config --global https.proxy https://proxy5b.openu.ac.il:80
 ```
 
 ## Generate access token 
-Read this:
+Log on to github with your browser and follow this instructions:
 ```
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
 https://github.com/settings/tokens
 ```
 
-## How to store the token on your local machine
+## Store the token on your local machine
 
-### 1 Use the Git Credential Store to store the token
+Several alternatives:
+### Use the Git Credential Store to store the token
 ```
 git config --global credential.helper store
 ```
-### 2 Alternative use the Windows Credential Manager:
+### Use the Windows Credential Manager:
 ```
 git config --global credential.helper manager-core
 ```
-### 3 Store in a .netrc File
+### Store in a .netrc File
 ```
 echo "machine github.com login your_username password your_token_here" > ~/.netrc
 chmod 600 ~/.netrc
 ```
-### 4 Use SSH Instead of a Token
+### Use SSH Instead of a Token
 For better security, set up SSH authentication with GitHub instead of using a token
 
 # Configuring Proxy for WSL (Ubuntu)
