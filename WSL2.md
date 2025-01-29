@@ -1,5 +1,5 @@
 
-# Configuring Proxy for git on OPENU WSL2 (Ubuntu)
+# Configuring Proxy for using git on OPENU's WSL2 (Ubuntu)
 
 ## Set proxy
 ```
