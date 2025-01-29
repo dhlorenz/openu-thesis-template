@@ -3,8 +3,10 @@
 # Configuring Proxy for git (Ubuntu)
 
 ## Set proxy
+```
 git config --global http.proxy http://proxy5b.openu.ac.il:80
 git config --global https.proxy https://proxy5b.openu.ac.il:80
+```
 
 ## Set access token 
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
